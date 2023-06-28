@@ -19,7 +19,6 @@ void pushing(int ind,string &s){
 	else return;
 }
 string reverseString(string &s){
-	// Write your code here.
 	string ans="";
 	pushing(0,s);
 	while(!ss.empty()){
